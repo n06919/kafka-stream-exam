@@ -49,7 +49,7 @@ public final class WordCountDemo {
         props.putIfAbsent(StreamsConfig.STATESTORE_CACHE_MAX_BYTES_CONFIG, 0);
         props.putIfAbsent(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG, Serdes.StringSerde.class);
         props.putIfAbsent(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG, Serdes.StringSerde.class);
-        props.put(StreamsConfig.STATE_DIR_CONFIG, "/Users/a06919/edu/kafka-2024-09-30/kafka-stream-exam/tmp");
+        props.put(StreamsConfig.STATE_DIR_CONFIG, "~/kafka-stream-exam/tmp");
 
 
         // setting offset reset to earliest so that we can re-run the demo code with the same pre-loaded data
