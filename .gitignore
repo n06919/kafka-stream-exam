@@ -1,0 +1,68 @@
+# Gradle 관련 파일
+.gradle/
+build/
+
+# 로그 파일
+*.log
+
+# IDE 설정 파일 (예: IntelliJ IDEA, Eclipse, VSCode 등)
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.vscode/
+
+# OS별 시스템 파일
+.DS_Store
+Thumbs.db
+
+# 실행 파일 및 아카이브
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven 관련 파일
+target/
+
+# Gradle Wrapper 파일
+# gradlew
+# gradlew.bat
+# gradle-wrapper.jar
+# .gradle/
+
+# Lombok generated files
+lombok.config
+
+# JUnit과 테스트 관련 파일
+test-output/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Eclipse
+.project
+.classpath
+.cdtproject
+.settings/
+*.launch
+build/
+tmp/
+
+# VSCode
+.vscode/
+
+# 패키징된 파일 (아카이브 파일)
+*.jar
+*.war
+*.ear
+
+# 환경변수 및 개인 설정 파일
+.env
+.env.local
+.env.*.local
